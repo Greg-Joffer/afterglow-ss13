@@ -1,4 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aad" = (
+/obj/structure/displaycase,
+/obj/item/melee/chainofcommand/tailwhip/kitty,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "aax" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -287,6 +292,11 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"arE" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/crafting_recipe/tribal/sorrows,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "arI" = (
 /obj/effect/decal/cleanable/ash/large,
 /turf/open/floor/plasteel/f13/vault_floor/red/side,
@@ -331,6 +341,15 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"avs" = (
+/obj/structure/displaycase,
+/obj/machinery/light/floor{
+	pixel_x = -15;
+	pixel_y = 15
+	},
+/obj/item/melee/chainofcommand/tailwhip,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "avJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable{
@@ -400,9 +419,9 @@
 /area/f13/vault/atrium)
 "aCb" = (
 /obj/machinery/porta_turret/xray{
+	desc = "A explosive machine gun auto-turret.";
 	faction = list("hostile");
 	name = "40mm turret";
-	desc = "A explosive machine gun auto-turret.";
 	stun_projectile = /obj/item/projectile/bullet/a40mm
 	},
 /obj/machinery/light/floor{
@@ -478,9 +497,9 @@
 /area/f13/bunker/bunkerthree)
 "aGa" = (
 /obj/machinery/porta_turret/xray{
+	desc = "A explosive machine gun auto-turret.";
 	faction = list("hostile");
 	name = "40mm turret";
-	desc = "A explosive machine gun auto-turret.";
 	stun_projectile = /obj/item/projectile/bullet/a40mm
 	},
 /turf/open/floor/f13{
@@ -644,6 +663,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/white,
 /area/f13/vault/medical/chemistry)
+"aOU" = (
+/mob/living/simple_animal/hostile/handy/gutsy,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "aPz" = (
 /obj/machinery/computer/telecomms/server{
 	dir = 4;
@@ -659,6 +682,17 @@
 /obj/effect/spawner/lootdrop/f13/advcrafting,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker/bunkertwo)
+"aQp" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 6
+	},
+/obj/item/mop/advanced,
+/obj/structure/closet/anchored,
+/obj/item/melee/flyswatter,
+/obj/item/organ/cyberimp/arm/janitor,
+/obj/item/watertank/janitor,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "aQA" = (
 /obj/effect/landmark/start/f13/cyborg,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/side{
@@ -811,13 +845,13 @@
 /area/f13/bunker/bunkertwo)
 "aYe" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	icon_state = "yellowsiding"
@@ -1059,6 +1093,12 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/ruin/powered)
+"brb" = (
+/mob/living/simple_animal/bot/cleanbot{
+	faction = list("neutral","wastebot")
+	},
+/turf/open/floor/f13,
+/area/ruin/powered)
 "brm" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -1242,6 +1282,12 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"bBC" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "bCG" = (
 /mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
 /obj/effect/decal/cleanable/dirt,
@@ -1397,8 +1443,8 @@
 /area/f13/tunnel)
 "bMF" = (
 /obj/machinery/light/small{
-	light_color = "red";
-	dir = 8
+	dir = 8;
+	light_color = "red"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -1567,12 +1613,9 @@
 	},
 /area/ruin/powered)
 "bWo" = (
-/obj/machinery/light/small{
-	dir = 1;
-	light_color = "red"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/vault)
+/obj/structure/sign/plaques/long/bomb,
+/turf/closed/indestructible/syndicate,
+/area/ruin/powered)
 "bWt" = (
 /mob/living/simple_animal/hostile/venus_human_trap{
 	faction = list("hostile","vines","plants","jungle")
@@ -1590,6 +1633,17 @@
 	icon_state = "grass3"
 	},
 /area/f13/bunker/bunkertwo)
+"bWW" = (
+/obj/structure/shelf_wood,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_official,
+/obj/item/poster/random_official,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "bXg" = (
 /obj/structure/flora/tree/jungle,
 /obj/structure/spacevine{
@@ -1780,14 +1834,23 @@
 "chn" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2";
-	pixel_y = -1;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = -1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/sewer/powered)
+"cho" = (
+/obj/structure/displaycase,
+/obj/machinery/light/floor{
+	pixel_x = -15;
+	pixel_y = 15
+	},
+/obj/item/voodoo,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "chF" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
 /obj/effect/decal/cleanable/dirt,
@@ -1939,6 +2002,11 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"cpV" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/trait/pa_wear,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "cqA" = (
 /obj/structure/flora/grass/jungle/b,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -1955,8 +2023,8 @@
 "crT" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/medsprays{
-	pixel_y = 10;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 10
 	},
 /obj/item/reagent_containers/glass/bottle/charcoal{
 	pixel_x = 5
@@ -1969,8 +2037,8 @@
 "crU" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/beakers{
-	pixel_y = 10;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 10
 	},
 /obj/item/storage/box/beakers{
 	pixel_x = 5;
@@ -2053,6 +2121,12 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"cwc" = (
+/obj/effect/turf_decal/stripes/asteroid/line,
+/obj/structure/table/abductor,
+/obj/item/weldingtool/abductor,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "cwh" = (
 /obj/structure/glowshroom{
 	floor = 1
@@ -2103,6 +2177,14 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"cyE" = (
+/obj/structure/displaycase,
+/obj/item/clothing/accessory/necklace{
+	color = "gold";
+	name = "golden necklace"
+	},
+/turf/open/floor/f13,
+/area/ruin/powered)
 "cyI" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -2153,8 +2235,8 @@
 /area/f13/bunker/bunkertwo)
 "cDS" = (
 /obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 11;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 11
 	},
 /obj/structure/table,
 /obj/item/reagent_containers/blood/radaway,
@@ -2261,8 +2343,8 @@
 "cIm" = (
 /obj/structure/table,
 /obj/item/megaphone/command{
-	pixel_y = 8;
-	pixel_x = 10
+	pixel_x = 10;
+	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
@@ -2511,17 +2593,21 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"cYg" = (
+/obj/effect/turf_decal/stripes/asteroid/line,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "cYr" = (
 /obj/item/shard,
 /mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
-	name = "ESC-2402";
-	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
-	faction = list("hostile");
 	auto_fire_delay = 1;
-	health = 1000;
+	color = "#FFCCCB";
+	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
 	extra_projectiles = 2;
-	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun;
-	color = "#FFCCCB"
+	faction = list("hostile");
+	health = 1000;
+	name = "ESC-2402";
+	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -2612,6 +2698,10 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/science)
+"deP" = (
+/obj/machinery/door/keycard/cheese,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "dfF" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -2619,8 +2709,8 @@
 /area/f13/vault/medical)
 "dfY" = (
 /obj/machinery/light/floor{
-	pixel_y = 16;
-	pixel_x = -17
+	pixel_x = -17;
+	pixel_y = 16
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/vault/atrium)
@@ -2629,8 +2719,8 @@
 /area/f13/vault/atrium)
 "dhs" = (
 /obj/structure/bed/old{
-	pixel_y = 7;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 7
 	},
 /obj/machinery/light,
 /turf/open/floor/f13{
@@ -2787,12 +2877,12 @@
 "dqc" = (
 /obj/structure/table/booth,
 /obj/item/trash/semki{
-	pixel_y = 10;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 10
 	},
 /obj/item/trash/can{
-	pixel_y = 3;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light{
@@ -2985,6 +3075,12 @@
 /obj/item/shield/riot/bullet_proof,
 /turf/open/floor/plasteel/vault,
 /area/f13/vault/security/armory)
+"dyO" = (
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
+	name = "collector's doorman"
+	},
+/turf/open/floor/f13,
+/area/ruin/powered)
 "dza" = (
 /obj/structure/simple_door/tent,
 /obj/effect/decal/cleanable/dirt,
@@ -3001,8 +3097,8 @@
 "dzz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/message{
-	once = 0;
-	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)"
+	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)";
+	once = 0
 	},
 /turf/open/floor/f13{
 	dir = 4;
@@ -3246,8 +3342,8 @@
 "dLx" = (
 /obj/structure/table/abductor,
 /obj/item/grenade/frag{
-	pixel_y = 5;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 5
 	},
 /obj/item/grenade/frag{
 	pixel_y = 5
@@ -3313,6 +3409,15 @@
 	dir = 1;
 	icon_state = "rampdowntop"
 	},
+/area/ruin/powered)
+"dPl" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/crafting_recipe/tribal/deadhorses,
+/obj/machinery/light/small{
+	brightness = 7;
+	dir = 8
+	},
+/turf/open/floor/carpet/green,
 /area/ruin/powered)
 "dPs" = (
 /obj/structure/railing{
@@ -3449,8 +3554,8 @@
 "dUt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/message{
-	once = 0;
-	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive!"
+	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive!";
+	once = 0
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker/bunkerthree)
@@ -3641,8 +3746,8 @@
 	dir = 4
 	},
 /obj/item/trash/f13/c_ration_1{
-	pixel_y = 13;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 13
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/vault/atrium)
@@ -3695,6 +3800,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/side{
 	dir = 5
 	},
+/area/ruin/powered)
+"egt" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/obj/machinery/computer/arcade/battle,
+/turf/open/floor/plating/tunnel,
 /area/ruin/powered)
 "egV" = (
 /obj/structure/lattice,
@@ -3905,8 +4017,8 @@
 /area/ruin/powered)
 "euN" = (
 /obj/structure/ladder/unbreakable{
-	id = "plantvault1";
 	height = 1;
+	id = "plantvault1";
 	level = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -4057,8 +4169,8 @@
 "eBl" = (
 /obj/effect/overlay/junk/oldpipes{
 	dir = 10;
-	pixel_y = -1;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = -1
 	},
 /turf/open/water,
 /area/f13/tunnel)
@@ -4090,13 +4202,13 @@
 /area/f13/tcoms)
 "eDv" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
 	dir = 4
@@ -4126,8 +4238,8 @@
 "eFy" = (
 /obj/item/trash/f13/bubblegum_large,
 /obj/item/trash/f13/bubblegum{
-	pixel_y = -7;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = -7
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/atrium)
@@ -4267,6 +4379,12 @@
 /obj/structure/flora/rock/jungle,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"eRR" = (
+/obj/effect/turf_decal/stripes/asteroid/line,
+/obj/structure/table/abductor,
+/obj/item/storage/box/disks,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "eTu" = (
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/dirt,
@@ -4284,6 +4402,20 @@
 /obj/structure/lattice/catwalk,
 /turf/open/water,
 /area/f13/bunker/bunkertwo)
+"eUW" = (
+/obj/structure/statue/gold/hop{
+	anchored = 1;
+	desc = "This statue made of pure gold looks strikingly similar to the ghoul killed upstairs, as if he wasn't rotted and frozen through.";
+	name = "statue of a very proud man"
+	},
+/obj/structure/sign/plaques/golden{
+	desc = "This has been awarded to the smartest man for he collected no less than needed to be an infinite resevoir of knowledge. He is both an accomplished historian and hobbyist with proficiencies in everything imaginable.";
+	name = "Totally legitimate commemorative degree";
+	pixel_y = 30
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "eVs" = (
 /obj/structure/reagent_dispensers/barrel/four,
 /turf/open/floor/f13{
@@ -4395,6 +4527,10 @@
 	},
 /turf/closed/wall/rust,
 /area/f13/bunker/bunkertwo)
+"fcX" = (
+/obj/structure/simple_door/bunker,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "fdd" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -4632,8 +4768,8 @@
 /area/f13/caves)
 "fnp" = (
 /turf/open/floor/f13{
-	icon_state = "yellowsidingcorner";
-	dir = 8
+	dir = 8;
+	icon_state = "yellowsidingcorner"
 	},
 /area/ruin/powered)
 "fnW" = (
@@ -4644,6 +4780,17 @@
 	icon_state = "floordirty"
 	},
 /area/f13/bunker/bunkerthree)
+"foh" = (
+/obj/item/clothing/accessory/necklace{
+	name = "silver necklace"
+	},
+/obj/structure/displaycase,
+/obj/machinery/light/floor{
+	pixel_x = -15;
+	pixel_y = 15
+	},
+/turf/open/floor/f13,
+/area/ruin/powered)
 "foE" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -4675,7 +4822,6 @@
 /area/f13/bunker/bunkertwo)
 "fpH" = (
 /obj/structure/rack,
-/obj/item/seeds/angel,
 /obj/item/seeds/liberty,
 /turf/open/floor/f13{
 	icon_state = "grass2"
@@ -4749,6 +4895,11 @@
 	light_range = 12
 	},
 /turf/open/floor/f13,
+/area/ruin/powered)
+"fvN" = (
+/obj/structure/bookcase,
+/obj/item/book/manual/wiki/circuitry,
+/turf/open/floor/carpet/green,
 /area/ruin/powered)
 "fvS" = (
 /obj/structure/flora/ausbushes/ywflowers,
@@ -4894,6 +5045,11 @@
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/dormitory)
+"fBV" = (
+/obj/item/clothing/neck/necklace/dope,
+/obj/structure/displaycase,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "fCh" = (
 /obj/machinery/chem_master,
 /obj/structure/cable{
@@ -5066,6 +5222,15 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered)
+"fLF" = (
+/obj/structure/displaycase,
+/obj/machinery/light/floor{
+	pixel_x = -15;
+	pixel_y = 15
+	},
+/obj/item/clothing/under/rank/civilian/victorianreddress,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "fLU" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -5085,6 +5250,10 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault/atrium)
+"fMD" = (
+/obj/structure/closet/lawcloset,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "fMI" = (
 /obj/structure/flora/tree/jungle/small,
 /obj/machinery/light,
@@ -5094,14 +5263,14 @@
 /area/f13/bunker/bunkertwo)
 "fMR" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
-	name = "redline grenadier protectron";
 	health = 250;
-	projectiletype = /obj/item/projectile/bullet/a40mm
+	name = "redline grenadier protectron";
+	projectiletype = /obj/item/projectile/bullet/a40mm;
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	icon_state = "yellowsiding"
@@ -5292,6 +5461,11 @@
 /obj/item/stack/ore/uranium,
 /turf/open/water,
 /area/f13/caves)
+"gat" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/trait/explosives,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "gbs" = (
 /obj/structure/rack,
 /obj/item/storage/box/medsprays,
@@ -5354,9 +5528,9 @@
 /area/ruin/powered)
 "gdX" = (
 /obj/structure/ladder/unbreakable{
+	climb_time = 30;
 	height = 1;
-	id = "overseerloot";
-	climb_time = 30
+	id = "overseerloot"
 	},
 /obj/machinery/light/broken{
 	dir = 8
@@ -5534,8 +5708,8 @@
 "gnk" = (
 /obj/structure/bookcase/manuals/research_and_development,
 /obj/item/toy/figure/captain{
-	pixel_y = 17;
-	pixel_x = 9
+	pixel_x = 9;
+	pixel_y = 17
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/overseer)
@@ -5598,16 +5772,16 @@
 "gsq" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_y = 8;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 8
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 7;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = 7
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 7;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 7
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/overseer)
@@ -5713,6 +5887,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/vault/atrium)
+"gyV" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/trait/iron_fist{
+	name = "The Unstoppables: Grognak the Barbarian"
+	},
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "gzu" = (
 /obj/structure/table,
 /obj/effect/spawner/bundle/f13/armor/combat/mk2/dark,
@@ -5765,8 +5946,8 @@
 "gAg" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/captain{
-	pixel_y = 14;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 14
 	},
 /obj/item/bedsheet/captain{
 	pixel_x = -2
@@ -5827,8 +6008,8 @@
 "gDi" = (
 /obj/effect/decal/cleanable/vomit,
 /obj/item/toy/figure/botanist{
-	pixel_y = 14;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 14
 	},
 /obj/structure/rack/shelf_metal,
 /obj/item/grown/log,
@@ -5908,14 +6089,14 @@
 /area/f13/bunker/bunkertwo)
 "gIc" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
-	name = "redline grenadier protectron";
 	health = 250;
-	projectiletype = /obj/item/projectile/bullet/a40mm
+	name = "redline grenadier protectron";
+	projectiletype = /obj/item/projectile/bullet/a40mm;
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	dir = 1;
@@ -6014,13 +6195,13 @@
 /area/ruin/powered)
 "gMP" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	dir = 4;
@@ -6030,6 +6211,10 @@
 "gNG" = (
 /obj/machinery/vending/wardrobe/science_wardrobe,
 /obj/effect/turf_decal/stripes/asteroid/full,
+/turf/open/floor/f13,
+/area/ruin/powered)
+"gNW" = (
+/mob/living/simple_animal/hostile/handy/gutsy,
 /turf/open/floor/f13,
 /area/ruin/powered)
 "gOb" = (
@@ -6392,14 +6577,14 @@
 "heU" = (
 /obj/item/shard,
 /mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
-	name = "ESC-2400";
-	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
-	faction = list("hostile");
 	auto_fire_delay = 1;
-	health = 1000;
+	color = "#FFCCCB";
+	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
 	extra_projectiles = 2;
-	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun;
-	color = "#FFCCCB"
+	faction = list("hostile");
+	health = 1000;
+	name = "ESC-2400";
+	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -6523,6 +6708,13 @@
 	dir = 1
 	},
 /area/f13/vault/atrium)
+"hlO" = (
+/obj/structure/showcase/cyborg/old,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "hmn" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/diamond,
@@ -6834,6 +7026,11 @@
 /obj/item/stack/crafting/goodparts,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker/bunkertwo)
+"hDH" = (
+/obj/structure/displaycase,
+/obj/item/melee/transforming/plasmacutter/regular,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "hEB" = (
 /obj/machinery/computer/terminal,
 /obj/structure/table/reinforced,
@@ -6989,8 +7186,8 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "rampdowntop";
-	dir = 4
+	dir = 4;
+	icon_state = "rampdowntop"
 	},
 /area/f13/vault/atrium)
 "hQy" = (
@@ -7390,6 +7587,10 @@
 	name = "roughcast asphalt"
 	},
 /area/f13/caves)
+"ioA" = (
+/obj/structure/closet/crate/secure/loot,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "ioE" = (
 /obj/structure/closet/locker,
 /obj/item/storage/belt/army/security,
@@ -7479,6 +7680,11 @@
 	icon_state = "yellowsiding"
 	},
 /area/f13/bunker/bunkerthree)
+"itU" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/crafting_recipe/tribal/whitelegs,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "itZ" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -7495,16 +7701,16 @@
 "iuz" = (
 /obj/structure/table/wood/club,
 /obj/item/newspaper{
-	pixel_y = 6;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 6
 	},
 /obj/item/reagent_containers/food/drinks/coffee{
 	pixel_x = -9;
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/ash{
-	pixel_y = -8;
-	pixel_x = -9
+	pixel_x = -9;
+	pixel_y = -8
 	},
 /turf/open/floor/wood_wide,
 /area/f13/vault/diner)
@@ -7541,6 +7747,24 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/atrium)
+"iwi" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 9
+	},
+/obj/item/target/vaultie2{
+	name = "realistic boy shooting target";
+	pixel_x = -8
+	},
+/obj/item/target/communist{
+	name = "communist shooting target";
+	pixel_x = 2
+	},
+/obj/item/target/alien{
+	name = "sci-fi creature shooting target";
+	pixel_x = 11
+	},
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "iwN" = (
 /obj/structure/closet/ammunitionlocker,
 /obj/structure/cable,
@@ -7622,16 +7846,16 @@
 	light_color = "red"
 	},
 /obj/item/trash/f13/bubblegum{
-	pixel_y = -9;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = -9
 	},
 /obj/item/reagent_containers/food/drinks/bottle/grenadine{
-	pixel_y = 18;
-	pixel_x = -11
+	pixel_x = -11;
+	pixel_y = 18
 	},
 /obj/item/broken_bottle{
-	pixel_y = -5;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = -5
 	},
 /obj/item/shard,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
@@ -7706,12 +7930,12 @@
 "iGA" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/mug/tea{
-	pixel_y = 4;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 4
 	},
 /obj/item/reagent_containers/food/drinks/mug/tea{
-	pixel_y = 12;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 12
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/dormitory)
@@ -7750,6 +7974,11 @@
 "iIc" = (
 /mob/living/simple_animal/hostile/ghoul/legendary,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/ruin/powered)
+"iIp" = (
+/obj/structure/bookcase,
+/obj/item/book/manual/ncr/jobguide,
+/turf/open/floor/carpet/green,
 /area/ruin/powered)
 "iIN" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -7935,6 +8164,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker/bunkerthree)
+"iXd" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 5
+	},
+/obj/machinery/computer/arcade/orion_trail,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "iXx" = (
 /obj/structure/flora/junglebush,
 /turf/open/water,
@@ -8349,6 +8585,7 @@
 "jyW" = (
 /obj/item/wrench/power,
 /obj/structure/rack,
+/obj/item/crowbar/power,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/bunker/bunkertwo)
 "jzf" = (
@@ -8411,6 +8648,12 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"jCu" = (
+/obj/structure/chair/comfy/beige{
+	dir = 8
+	},
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "jDo" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/plasteel/floorgrime,
@@ -8430,13 +8673,13 @@
 /area/ruin/powered)
 "jFV" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
 	dir = 8
@@ -8452,10 +8695,10 @@
 /area/f13/bunker/bunkertwo)
 "jGv" = (
 /mob/living/simple_animal/hostile/handy/robobrain{
+	auto_fire_delay = 2;
 	faction = list("hostile");
 	health = 800;
-	name = "redline robobrain";
-	auto_fire_delay = 2
+	name = "redline robobrain"
 	},
 /turf/open/floor/f13{
 	dir = 10;
@@ -8572,8 +8815,8 @@
 /area/f13/bunker/bunkertwo)
 "jLZ" = (
 /turf/open/floor/plasteel/f13{
-	icon_state = "rampdowntop";
-	dir = 4
+	dir = 4;
+	icon_state = "rampdowntop"
 	},
 /area/f13/vault/atrium)
 "jMf" = (
@@ -8608,10 +8851,10 @@
 /area/f13/sewer/powered)
 "jOf" = (
 /mob/living/simple_animal/hostile/handy/robobrain{
+	auto_fire_delay = 2;
 	faction = list("hostile");
 	health = 200;
-	name = "redline robobrain";
-	auto_fire_delay = 2
+	name = "redline robobrain"
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -8711,6 +8954,11 @@
 	dir = 8
 	},
 /area/f13/vault/science)
+"jUj" = (
+/obj/structure/displaycase,
+/obj/item/toy/tragicthegarnering,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "jUC" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/grass/jungle/b,
@@ -8720,8 +8968,8 @@
 /obj/machinery/button/door{
 	id = "vaultbathroom";
 	normaldoorcontrol = 1;
-	specialfunctions = 4;
-	pixel_y = 22
+	pixel_y = 22;
+	specialfunctions = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/f13/vault/dormitory)
@@ -8834,10 +9082,10 @@
 /area/f13/vault/atrium)
 "kaw" = (
 /mob/living/simple_animal/hostile/megafauna/behemoth{
+	desc = "A super mutant who has grown to an incredible size, it's skin is pulled tight! This one wields two lamposts that have had car doors tied to the ends creating deadly axes, around it's neck hangs a license plate that spells out 'Tiny'.";
 	faction = list("mining","boss","supermutant");
 	name = "Tiny";
-	speed = 3;
-	desc = "A super mutant who has grown to an incredible size, it's skin is pulled tight! This one wields two lamposts that have had car doors tied to the ends creating deadly axes, around it's neck hangs a license plate that spells out 'Tiny'."
+	speed = 3
 	},
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/dirt,
@@ -8871,14 +9119,14 @@
 /area/f13/tcoms)
 "kdD" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
-	name = "redline grenadier protectron";
 	health = 250;
-	projectiletype = /obj/item/projectile/bullet/a40mm
+	name = "redline grenadier protectron";
+	projectiletype = /obj/item/projectile/bullet/a40mm;
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -8924,8 +9172,8 @@
 "kfD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/message{
-	once = 0;
-	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)"
+	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)";
+	once = 0
 	},
 /turf/open/floor/f13{
 	icon_state = "yellowsiding"
@@ -9080,6 +9328,14 @@
 	icon_state = "yellowsiding"
 	},
 /area/f13/bunker/bunkerthree)
+"ksg" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "collector";
+	level = 1
+	},
+/turf/open/floor/f13,
+/area/ruin/powered)
 "ksQ" = (
 /obj/machinery/vending/wardrobe/engi_wardrobe/free,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
@@ -9131,6 +9387,15 @@
 	},
 /turf/open/water,
 /area/f13/bunker/bunkertwo)
+"kwt" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/crafting_recipe/tribal/bone,
+/obj/machinery/light/small{
+	brightness = 7;
+	dir = 4
+	},
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "kwK" = (
 /obj/structure/flora/junglebush/large,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -9162,9 +9427,9 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fountain/captain{
+	name = "overseer's fountain pen";
 	pixel_x = -6;
-	pixel_y = 9;
-	name = "overseer's fountain pen"
+	pixel_y = 9
 	},
 /obj/item/pen/charcoal{
 	pixel_x = -6;
@@ -9335,6 +9600,11 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"kHJ" = (
+/obj/item/clothing/neck/cursednecklace,
+/obj/structure/displaycase,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "kHL" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /mob/living/simple_animal/hostile/trog/sporecarrier,
@@ -9434,13 +9704,13 @@
 /area/f13/bunker/bunkertwo)
 "kPu" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	dir = 9;
@@ -9464,12 +9734,12 @@
 "kPR" = (
 /obj/structure/table/abductor,
 /obj/item/grenade/f13/radiation{
-	pixel_y = 5;
-	pixel_x = -4
+	pixel_x = -4;
+	pixel_y = 5
 	},
 /obj/item/grenade/f13/plasma{
-	pixel_y = 7;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 7
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "bcircuit1";
@@ -9496,13 +9766,13 @@
 /area/ruin/powered)
 "kQT" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	dir = 1;
@@ -9666,8 +9936,8 @@
 "laF" = (
 /obj/structure/table,
 /obj/item/toy/plush/lizardplushie{
-	pixel_y = 8;
-	name = "Watches-The-Warcrimes"
+	name = "Watches-The-Warcrimes";
+	pixel_y = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/f13/vault/security)
@@ -9789,8 +10059,8 @@
 "lia" = (
 /obj/structure/table/abductor,
 /obj/item/grenade/plastic/c4{
-	pixel_y = 2;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 2
 	},
 /obj/item/grenade/plastic/c4{
 	pixel_y = 2
@@ -9908,8 +10178,8 @@
 "lmN" = (
 /obj/structure/table,
 /obj/item/storage/box/cups{
-	pixel_y = 10;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 10
 	},
 /turf/open/floor/wood_mosaic,
 /area/f13/vault/security)
@@ -10159,10 +10429,10 @@
 /area/f13/bunker/bunkertwo)
 "lCS" = (
 /mob/living/simple_animal/hostile/handy/robobrain{
+	auto_fire_delay = 2;
 	faction = list("hostile");
 	health = 800;
-	name = "redline robobrain";
-	auto_fire_delay = 2
+	name = "redline robobrain"
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -10504,14 +10774,14 @@
 /area/ruin/powered)
 "lWl" = (
 /mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
-	name = "ESC-2403";
-	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
-	faction = list("hostile");
 	auto_fire_delay = 1;
-	health = 1000;
+	color = "#FFCCCB";
+	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
 	extra_projectiles = 2;
-	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun;
-	color = "#FFCCCB"
+	faction = list("hostile");
+	health = 1000;
+	name = "ESC-2403";
+	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun
 	},
 /obj/item/shard,
 /turf/open/floor/f13,
@@ -10867,8 +11137,8 @@
 "mtX" = (
 /obj/structure/table/abductor,
 /obj/item/grenade/f13/incendiary{
-	pixel_y = 5;
-	pixel_x = 9
+	pixel_x = 9;
+	pixel_y = 5
 	},
 /obj/item/grenade/f13/incendiary{
 	pixel_y = 5
@@ -10936,8 +11206,8 @@
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/delivery,
 /obj/structure/railing{
-	layer = 4.1;
-	dir = 4
+	dir = 4;
+	layer = 4.1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/vault/reactor)
@@ -11014,8 +11284,8 @@
 /area/f13/sewer/powered)
 "mEn" = (
 /obj/structure/rack,
-/obj/item/weldingtool/hugetank,
-/obj/item/weldingtool/hugetank,
+/obj/item/weldingtool/advanced,
+/obj/item/weldingtool/advanced,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/bunker/bunkertwo)
 "mEt" = (
@@ -11312,13 +11582,13 @@
 /area/f13/vault/security)
 "mVH" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	dir = 8;
@@ -11385,6 +11655,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault/reactor)
+"nal" = (
+/obj/structure/displaycase,
+/obj/item/melee/transforming/plasmacutter/regular/celestia,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "nap" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -11434,8 +11709,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice,
 /mob/living/simple_animal/hostile/securitron/sentrybot/chew/strong{
-	faction = list("hostile");
 	aggro_vision_range = 16;
+	faction = list("hostile");
 	field_of_vision_type = 360;
 	vision_range = 16
 	},
@@ -11817,16 +12092,22 @@
 /area/f13/bunker/bunkertwo)
 "nBh" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
-	name = "redline grenadier protectron";
 	health = 250;
-	projectiletype = /obj/item/projectile/bullet/a40mm
+	name = "redline grenadier protectron";
+	projectiletype = /obj/item/projectile/bullet/a40mm;
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side,
+/area/ruin/powered)
+"nBR" = (
+/obj/structure/table/wood,
+/obj/item/price_tagger,
+/obj/item/stamp/law,
+/turf/open/floor/carpet/green,
 /area/ruin/powered)
 "nCl" = (
 /obj/effect/decal/cleanable/glass{
@@ -12129,8 +12410,8 @@
 /area/ruin/powered)
 "nZj" = (
 /obj/machinery/light/floor{
-	pixel_y = 16;
-	pixel_x = -17
+	pixel_x = -17;
+	pixel_y = 16
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white,
 /area/f13/vault/atrium)
@@ -12201,6 +12482,11 @@
 	},
 /turf/open/floor/wood_mosaic,
 /area/f13/vault/diner)
+"obh" = (
+/obj/structure/displaycase,
+/obj/item/melee/onehanded/slavewhip,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "obq" = (
 /obj/structure/flora/rock/jungle,
 /turf/open/floor/plating/dirt,
@@ -12230,6 +12516,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/f13/tcoms)
+"odq" = (
+/obj/structure/displaycase,
+/obj/item/clothing/under/rank/civilian/victorian_vest,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "ody" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small,
@@ -12274,11 +12565,16 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/medical/chemistry)
+"ohi" = (
+/obj/structure/displaycase,
+/obj/item/ship_in_a_bottle,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "ohH" = (
 /obj/structure/table/abductor,
 /obj/item/grenade/f13/stinger{
-	pixel_y = 6;
-	pixel_x = 10
+	pixel_x = 10;
+	pixel_y = 6
 	},
 /obj/item/grenade/f13/stinger{
 	pixel_y = 6
@@ -12293,8 +12589,8 @@
 "ohS" = (
 /obj/structure/fluff/hedge,
 /obj/structure/fluff/railing/corner{
-	dir = 8;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 8
 	},
 /turf/open/floor/wood_wide,
 /area/f13/vault/diner)
@@ -12384,6 +12680,11 @@
 	icon_state = "floordirtysolid"
 	},
 /area/f13/bunker/bunkertwo)
+"onb" = (
+/obj/structure/displaycase,
+/obj/item/melee/chainofcommand,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "one" = (
 /obj/machinery/chem_dispenser,
 /obj/item/radio/intercom{
@@ -12594,12 +12895,12 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/poster/random_contraband,
 /obj/item/poster/random_contraband{
-	pixel_y = -4;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = -4
 	},
 /obj/item/poster/random_contraband{
-	pixel_y = 2;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -12717,6 +13018,11 @@
 	dir = 1
 	},
 /area/f13/vault/security/armory)
+"oGH" = (
+/obj/structure/displaycase,
+/obj/item/melee/transforming/plasmacutter/regular/adam,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "oIn" = (
 /obj/machinery/light/floor{
 	light_color = "#ff4500";
@@ -12731,12 +13037,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small{
-	light_color = "red";
-	dir = 8
+	dir = 8;
+	light_color = "red"
 	},
 /obj/item/paint/black{
-	pixel_y = 11;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 11
 	},
 /obj/item/paint/red{
 	pixel_x = 1;
@@ -12747,8 +13053,8 @@
 	pixel_y = 4
 	},
 /obj/item/paint/paint_remover{
-	pixel_y = -9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = -9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -13063,9 +13369,9 @@
 "php" = (
 /obj/structure/fluff/hedge,
 /obj/structure/fluff/railing{
+	color = "#A47449";
 	dir = 8;
-	layer = 3.1;
-	color = "#A47449"
+	layer = 3.1
 	},
 /turf/open/floor/wood_mosaic,
 /area/f13/vault/diner)
@@ -13140,8 +13446,8 @@
 	faction = list("hostile")
 	},
 /turf/open/floor/f13{
-	icon_state = "yellowsidingcorner";
-	dir = 8
+	dir = 8;
+	icon_state = "yellowsidingcorner"
 	},
 /area/ruin/powered)
 "pka" = (
@@ -13171,8 +13477,8 @@
 "pkx" = (
 /obj/structure/table,
 /obj/item/newspaper{
-	pixel_y = 6;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 6
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/vault/overseer)
@@ -13228,8 +13534,8 @@
 	pixel_y = 6
 	},
 /obj/item/pen{
-	pixel_y = 7;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 7
 	},
 /turf/open/floor/f13{
 	icon_state = "dark"
@@ -13281,9 +13587,9 @@
 /area/f13/vault/science)
 "prm" = (
 /obj/structure/ladder/unbreakable{
+	climb_time = 30;
 	height = 1;
-	id = "overseerboss";
-	climb_time = 30
+	id = "overseerboss"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered)
@@ -13429,11 +13735,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker/bunkerthree)
+"pAi" = (
+/obj/item/stack/cable_coil/random/five,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "pAA" = (
 /obj/machinery/porta_turret/xray{
+	desc = "A explosive machine gun auto-turret.";
 	faction = list("hostile");
 	name = "40mm turret";
-	desc = "A explosive machine gun auto-turret.";
 	stun_projectile = /obj/item/projectile/bullet/a40mm
 	},
 /turf/open/floor/f13{
@@ -13517,12 +13827,12 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window,
 /obj/item/stack/medical/ointment{
-	pixel_y = 4;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 4
 	},
 /obj/item/stack/medical/ointment{
-	pixel_y = -3;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = -3
 	},
 /obj/item/stack/medical/gauze/adv{
 	pixel_x = 15;
@@ -13582,6 +13892,11 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/red/corner,
 /area/f13/vault/atrium)
+"pFz" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/crafting_recipe/tribal/wayfarer,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "pFN" = (
 /obj/structure/flora/junglebush/c,
 /obj/structure/flora/grass/jungle,
@@ -13590,6 +13905,13 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"pGo" = (
+/obj/structure/displaycase,
+/obj/item/spellpacket/lightningbolt{
+	name = "Recalled Snap-pop"
+	},
+/turf/open/floor/f13,
+/area/ruin/powered)
 "pGE" = (
 /obj/machinery/light{
 	dir = 4
@@ -13700,9 +14022,9 @@
 "pPH" = (
 /obj/structure/fluff/hedge,
 /obj/structure/fluff/railing{
+	color = "#A47449";
 	dir = 2;
-	layer = 3.1;
-	color = "#A47449"
+	layer = 3.1
 	},
 /turf/open/floor/wood_wide,
 /area/f13/vault/diner)
@@ -13791,6 +14113,13 @@
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/hud/health/prescription,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/ruin/powered)
+"pVG" = (
+/obj/machinery/computer/arcade/amputation,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 4
+	},
+/turf/open/floor/plating/tunnel,
 /area/ruin/powered)
 "pVR" = (
 /obj/effect/spawner/structure/window/plastitanium,
@@ -13881,6 +14210,11 @@
 /area/f13/bunker/bunkertwo)
 "qdN" = (
 /turf/open/floor/plasteel/f13/vault_floor/red/corner,
+/area/ruin/powered)
+"qfm" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/crafting_recipe/tribal/rustwalkers,
+/turf/open/floor/carpet/green,
 /area/ruin/powered)
 "qfq" = (
 /mob/living/simple_animal/hostile/supermutant/meleemutant,
@@ -14239,9 +14573,9 @@
 /area/f13/vault/security)
 "qFH" = (
 /obj/structure/ladder/unbreakable{
+	height = 1;
 	id = "roboticdung";
-	level = 1;
-	height = 1
+	level = 1
 	},
 /turf/open/floor/f13{
 	icon_state = "yellowsiding"
@@ -14319,13 +14653,13 @@
 /area/f13/bunker/bunkertwo)
 "qKf" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13{
 	dir = 5;
@@ -14403,6 +14737,10 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"qOj" = (
+/obj/structure/closet/lasertag/blue,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "qOk" = (
 /mob/living/simple_animal/hostile/handy/assaultron{
 	desc = "A deadly close combat robot developed by RobCo in a vaguely feminine, yet ominous chassis. This one seems sleeker and more dangerous, with a slick red paintjob.";
@@ -14500,8 +14838,8 @@
 /area/f13/bunker/bunkertwo)
 "qTc" = (
 /turf/open/floor/f13{
-	icon_state = "yellowsidingcorner";
-	dir = 1
+	dir = 1;
+	icon_state = "yellowsidingcorner"
 	},
 /area/ruin/powered)
 "qTf" = (
@@ -14601,6 +14939,11 @@
 /obj/structure/flora/grass/jungle,
 /turf/open/water,
 /area/f13/bunker/bunkertwo)
+"qYK" = (
+/obj/structure/displaycase,
+/obj/item/clothing/under/rank/civilian/victorian_redvest,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "qYX" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/f13{
@@ -14639,12 +14982,12 @@
 	pixel_x = -32
 	},
 /obj/item/flashlight/lantern{
-	pixel_y = 17;
-	pixel_x = -12
+	pixel_x = -12;
+	pixel_y = 17
 	},
 /obj/item/flashlight/lantern{
-	pixel_y = 17;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 17
 	},
 /turf/open/floor/plasteel/f13,
 /area/f13/vault/atrium)
@@ -14677,8 +15020,8 @@
 /area/f13/bunker/bunkertwo)
 "rcn" = (
 /turf/open/floor/plasteel/f13{
-	icon_state = "rampdowntop";
-	dir = 8
+	dir = 8;
+	icon_state = "rampdowntop"
 	},
 /area/f13/vault/atrium)
 "rcv" = (
@@ -14744,8 +15087,8 @@
 	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 6;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 6
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/overseer)
@@ -14885,6 +15228,10 @@
 /obj/machinery/door/airlock/public,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/bunker/bunkertwo)
+"roh" = (
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "roC" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/brflowers,
@@ -14897,16 +15244,16 @@
 /obj/structure/rack/large/shelf,
 /obj/effect/spawner/lootdrop/trash,
 /obj/item/reagent_containers/food/drinks/bottle/kahlua{
-	pixel_y = 31;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 31
 	},
 /obj/item/reagent_containers/food/drinks/bottle/kahlua{
-	pixel_y = 31;
-	pixel_x = 11
+	pixel_x = 11;
+	pixel_y = 31
 	},
 /obj/item/reagent_containers/food/drinks/bottle/kahlua{
-	pixel_y = 31;
-	pixel_x = 19
+	pixel_x = 19;
+	pixel_y = 31
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -14992,8 +15339,8 @@
 /area/f13/bunker/bunkertwo)
 "ruK" = (
 /obj/item/trash/f13/mechanist{
-	pixel_y = 14;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 14
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/side,
 /area/f13/vault/atrium)
@@ -15038,8 +15385,8 @@
 "rzw" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2";
-	pixel_y = 13;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 13
 	},
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
@@ -15164,6 +15511,10 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"rIi" = (
+/obj/machinery/light/floor,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "rIl" = (
 /turf/open/floor/f13{
 	icon_state = "floordirty"
@@ -15195,8 +15546,8 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small{
-	light_color = "red";
-	dir = 8
+	dir = 8;
+	light_color = "red"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -15295,10 +15646,14 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/bunker/bunkerthree)
+"rOG" = (
+/obj/structure/closet/gimmick/russian,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "rQq" = (
 /obj/machinery/mineral/ore_redemption{
-	output_dir = 8;
-	input_dir = 8
+	input_dir = 8;
+	output_dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/vault/atrium)
@@ -15525,6 +15880,10 @@
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/white,
 /area/f13/vault/science)
+"sfo" = (
+/mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "sfp" = (
 /obj/structure/flora/junglebush/large,
 /obj/structure/flora/grass/jungle,
@@ -15642,12 +16001,17 @@
 /obj/structure/lattice,
 /turf/open/floor/plating/tunnel,
 /area/ruin/powered)
+"siz" = (
+/obj/structure/displaycase,
+/obj/structure/wreck/trash/secway,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "siD" = (
 /obj/structure/table/reinforced,
 /obj/item/pickaxe,
 /obj/item/pickaxe{
-	pixel_y = 2;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 2
 	},
 /obj/item/pickaxe/drill{
 	pixel_y = 3
@@ -15708,6 +16072,10 @@
 /obj/effect/spawner/lootdrop/f13/advcrafting,
 /turf/open/floor/plasteel/floorgrime,
 /area/f13/bunker/bunkertwo)
+"sle" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "slk" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -15983,8 +16351,8 @@
 	pixel_y = 2
 	},
 /obj/item/reagent_containers/food/condiment/soysauce{
-	pixel_y = 14;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 14
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/vault/diner)
@@ -16069,8 +16437,8 @@
 /obj/effect/turf_decal/delivery,
 /obj/structure/table,
 /obj/item/storage/box/disks_plantgene{
-	pixel_y = 13;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 13
 	},
 /obj/item/storage/box/disks_plantgene{
 	pixel_y = 8
@@ -16110,9 +16478,9 @@
 "sHs" = (
 /obj/structure/fluff/hedge,
 /obj/structure/fluff/railing{
+	color = "#A47449";
 	dir = 2;
-	layer = 3.1;
-	color = "#A47449"
+	layer = 3.1
 	},
 /turf/open/floor/wood_mosaic,
 /area/f13/vault/diner)
@@ -16315,6 +16683,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/vault/reactor)
+"sUK" = (
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "sUL" = (
 /obj/item/kirbyplants,
 /obj/effect/turf_decal/siding/wood{
@@ -16457,8 +16828,8 @@
 /area/f13/vault/science)
 "tbZ" = (
 /obj/effect/overlay/junk/oldpipes/end{
-	pixel_y = -4;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = -4
 	},
 /turf/open/water,
 /area/f13/tunnel)
@@ -16602,13 +16973,13 @@
 /area/f13/sewer/powered)
 "tlL" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
+	health = 250;
 	name = "redline protectron";
-	health = 250
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -16637,6 +17008,26 @@
 /obj/structure/girder/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/vault)
+"tnk" = (
+/obj/structure/shelf_wood,
+/obj/item/paper/pamphlet{
+	desc = "Volume one of five of the Unstoppable series by Hubris Comics";
+	name = "The Unstoppables: Mistress of Misery"
+	},
+/obj/item/paper/pamphlet{
+	desc = "Volume two of five of the Unstoppable series by Hubris Comics";
+	name = "The Unstoppables: Silver Shroud"
+	},
+/obj/item/paper/pamphlet{
+	desc = "Volume four of five of the Unstoppable series by Hubris Comics";
+	name = "The Unstoppables: The inspector"
+	},
+/obj/item/paper/pamphlet{
+	desc = "Volume five of five of the Unstoppable series by Hubris Comics";
+	name = "The Unstoppables: Manta Man"
+	},
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "tnC" = (
 /obj/structure/lattice/catwalk,
 /turf/closed/wall/rust,
@@ -16753,6 +17144,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault/reactor)
+"trT" = (
+/obj/structure/bookcase,
+/obj/item/book/granter/action/origami,
+/turf/open/floor/carpet/green,
+/area/ruin/powered)
 "tss" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -16807,6 +17203,11 @@
 	icon_state = "greendirtysolid"
 	},
 /area/f13/bunker/bunkertwo)
+"tvu" = (
+/obj/structure/displaycase,
+/obj/item/toy/plush/awakenedplushie,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "twL" = (
 /obj/structure/reagent_dispensers/barrel/three,
 /obj/effect/decal/cleanable/dirt,
@@ -16886,6 +17287,11 @@
 "tDq" = (
 /obj/structure/rack,
 /obj/item/locked_box/medical,
+/turf/open/floor/f13,
+/area/ruin/powered)
+"tDu" = (
+/obj/structure/displaycase,
+/obj/item/melee/transforming/plasmacutter/regular/eve,
 /turf/open/floor/f13,
 /area/ruin/powered)
 "tDz" = (
@@ -17074,8 +17480,8 @@
 /obj/effect/overlay/junk/oldpipes,
 /obj/effect/overlay/junk/oldpipes/end{
 	dir = 8;
-	pixel_y = -2;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = -2
 	},
 /turf/open/water,
 /area/f13/tunnel)
@@ -17125,8 +17531,8 @@
 "tSA" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
-	pixel_y = 20;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 20
 	},
 /obj/item/kirbyplants{
 	icon_state = "plant-22";
@@ -17441,8 +17847,8 @@
 /area/f13/bunker/bunkertwo)
 "ujU" = (
 /obj/structure/campfire/barrel{
-	pixel_y = 10;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 10
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -17757,16 +18163,16 @@
 "uAK" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 13;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 13
 	},
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 13;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 13
 	},
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 7;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = 7
 	},
 /obj/item/reagent_containers/glass/beaker/slime{
 	pixel_x = 6;
@@ -17793,11 +18199,16 @@
 "uBi" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small{
-	light_color = "red";
-	dir = 8
+	dir = 8;
+	light_color = "red"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
+"uBn" = (
+/obj/structure/displaycase,
+/obj/vehicle/ridden/wheelchair/the_whip,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "uBy" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/f13,
@@ -17923,10 +18334,10 @@
 /area/f13/vault/diner)
 "uNr" = (
 /mob/living/simple_animal/hostile/handy/robobrain{
+	auto_fire_delay = 2;
 	faction = list("hostile");
 	health = 200;
-	name = "redline robobrain";
-	auto_fire_delay = 2
+	name = "redline robobrain"
 	},
 /turf/open/floor/plating/tunnel,
 /area/ruin/powered)
@@ -17966,16 +18377,16 @@
 "uQa" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_y = 15;
-	pixel_x = 13
+	pixel_x = 13;
+	pixel_y = 15
 	},
 /obj/item/reagent_containers/food/condiment/milk{
-	pixel_y = 10;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 10
 	},
 /obj/item/storage/box/drinkingglasses{
-	pixel_y = 7;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 7
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/white/side{
 	dir = 1
@@ -18105,8 +18516,8 @@
 "vao" = (
 /obj/structure/table/booth,
 /obj/item/reagent_containers/food/snacks/burger/bigbite{
-	pixel_y = 4;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 4
 	},
 /obj/item/trash/plate{
 	pixel_x = 16;
@@ -18240,6 +18651,7 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
 /mob/living/simple_animal/hostile/deathclaw/legendary{
+	aggro_vision_range = 11;
 	color = "#42e27d";
 	faction = list("deathclaw","plants");
 	health = 3000;
@@ -18247,8 +18659,7 @@
 	light_power = 3;
 	light_range = 12;
 	name = "glowing legendary deathclaw";
-	sneak_detection_threshold = 100;
-	aggro_vision_range = 11
+	sneak_detection_threshold = 100
 	},
 /turf/open/floor/f13{
 	icon_state = "grass2"
@@ -18372,9 +18783,9 @@
 "vte" = (
 /obj/structure/fluff/hedge,
 /obj/structure/fluff/railing{
+	color = "#A47449";
 	dir = 10;
-	layer = 3.1;
-	color = "#A47449"
+	layer = 3.1
 	},
 /turf/open/floor/wood_mosaic,
 /area/f13/vault/diner)
@@ -18462,8 +18873,8 @@
 	pixel_y = 2
 	},
 /obj/item/clipboard{
-	pixel_y = 3;
-	pixel_x = -12
+	pixel_x = -12;
+	pixel_y = 3
 	},
 /obj/item/pen{
 	pixel_x = -14;
@@ -18489,9 +18900,9 @@
 "vyh" = (
 /obj/structure/fluff/hedge,
 /obj/structure/fluff/railing{
+	color = "#A47449";
 	dir = 8;
-	layer = 3.1;
-	color = "#A47449"
+	layer = 3.1
 	},
 /obj/machinery/light{
 	dir = 1
@@ -18651,8 +19062,8 @@
 /area/f13/bunker/bunkertwo)
 "vKh" = (
 /obj/machinery/computer/security{
-	network = list("vault");
-	dir = 8
+	dir = 8;
+	network = list("vault")
 	},
 /turf/open/floor/plasteel/darkred/side{
 	dir = 1
@@ -18771,6 +19182,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault)
+"vQg" = (
+/mob/living/simple_animal/hostile/handy/protectron,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "vQp" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /obj/effect/decal/cleanable/dirt,
@@ -18890,6 +19305,12 @@
 	icon_state = "grass2"
 	},
 /area/f13/bunker/bunkertwo)
+"vYu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb,
+/obj/machinery/pdapainter,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/ruin/powered)
 "vYI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
@@ -19058,6 +19479,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker/bunkerthree)
+"wgI" = (
+/obj/structure/sign/plaques/long/paradise,
+/turf/closed/indestructible/syndicate,
+/area/ruin/powered)
 "whM" = (
 /obj/effect/mob_spawn/human/corpse/vault,
 /obj/structure/flora/ausbushes/genericbush,
@@ -19110,16 +19535,16 @@
 	pixel_y = -42
 	},
 /obj/structure/sign/directions/science{
-	pixel_y = -35;
-	dir = 4
+	dir = 4;
+	pixel_y = -35
 	},
 /obj/structure/sign/directions/medical{
-	pixel_y = -21;
-	dir = 1
+	dir = 1;
+	pixel_y = -21
 	},
 /obj/structure/sign/directions/engineering{
-	pixel_y = -28;
-	dir = 4
+	dir = 4;
+	pixel_y = -28
 	},
 /obj/machinery/camera/autoname{
 	dir = 10;
@@ -19174,6 +19599,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
+"wmM" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 10
+	},
+/obj/item/bodypart/head/robot,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "wnd" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -19355,6 +19787,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/f13/tcoms)
+"wvB" = (
+/obj/structure/closet/lasertag/red,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "wvP" = (
 /obj/structure/flora/tree/jungle,
 /mob/living/simple_animal/hostile/trog/tunneler,
@@ -19410,9 +19846,9 @@
 /area/f13/vault/atrium)
 "wyM" = (
 /obj/structure/ladder/unbreakable{
+	height = 1;
 	id = "plantvault2";
-	level = 1;
-	height = 1
+	level = 1
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker/bunkertwo)
@@ -19457,6 +19893,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/medical)
+"wBS" = (
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 8
+	},
+/obj/machinery/mecha_part_fabricator,
+/turf/open/floor/plating/tunnel,
+/area/ruin/powered)
 "wCm" = (
 /obj/structure/vaultdoor{
 	icon_state = "open";
@@ -19634,6 +20077,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault/reactor)
+"wMU" = (
+/obj/structure/displaycase,
+/obj/item/clothing/under/rank/civilian/victorianblackdress,
+/turf/open/floor/f13,
+/area/ruin/powered)
 "wNi" = (
 /obj/structure/reagent_dispensers/barrel/four,
 /obj/effect/decal/cleanable/dirt,
@@ -19719,8 +20167,8 @@
 "wSf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/message{
-	once = 0;
-	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)"
+	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)";
+	once = 0
 	},
 /turf/open/floor/f13{
 	dir = 8;
@@ -19984,8 +20432,8 @@
 /area/ruin/powered)
 "xhD" = (
 /obj/machinery/door/airlock/silver{
-	name = "Bathroom";
-	id_tag = "vaultbathroom"
+	id_tag = "vaultbathroom";
+	name = "Bathroom"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 8
@@ -20089,14 +20537,14 @@
 /area/f13/bunker/bunkertwo)
 "xnY" = (
 /mob/living/simple_animal/hostile/handy/protectron{
+	auto_fire_delay = 2;
+	emp_flags = null;
 	extra_projectiles = 1;
 	faction = list("hostile");
-	emp_flags = null;
-	auto_fire_delay = 2;
-	rapid_fire_delay = 1;
-	name = "redline grenadier protectron";
 	health = 250;
-	projectiletype = /obj/item/projectile/bullet/a40mm
+	name = "redline grenadier protectron";
+	projectiletype = /obj/item/projectile/bullet/a40mm;
+	rapid_fire_delay = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
 	dir = 1
@@ -20151,8 +20599,8 @@
 /area/ruin/powered)
 "xup" = (
 /obj/machinery/light/small{
-	light_color = "red";
-	dir = 1
+	dir = 1;
+	light_color = "red"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/vault)
@@ -20393,8 +20841,8 @@
 /area/f13/bunker/bunkertwo)
 "xJy" = (
 /turf/open/floor/f13{
-	icon_state = "yellowsidingcorner";
-	dir = 4
+	dir = 4;
+	icon_state = "yellowsidingcorner"
 	},
 /area/ruin/powered)
 "xKl" = (
@@ -20413,10 +20861,10 @@
 /area/f13/tcoms)
 "xKO" = (
 /mob/living/simple_animal/hostile/handy/robobrain{
+	auto_fire_delay = 2;
 	faction = list("hostile");
 	health = 200;
-	name = "redline robobrain";
-	auto_fire_delay = 2
+	name = "redline robobrain"
 	},
 /turf/open/floor/f13{
 	dir = 1;
@@ -20426,8 +20874,8 @@
 "xLl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/message{
-	once = 0;
-	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)"
+	message = "Something large is nearby, I should prepare before I run into it, I might not come out alive! (THERE IS A MOB THAT WILL GIB YOU AS A BOSS HERE. PROCEED AT YOUR OWN RISK.)";
+	once = 0
 	},
 /turf/open/floor/f13{
 	icon_state = "floordirty"
@@ -20436,8 +20884,8 @@
 "xLr" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small{
-	light_color = "red";
-	dir = 8
+	dir = 8;
+	light_color = "red"
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -20447,14 +20895,14 @@
 "xLF" = (
 /obj/item/shard,
 /mob/living/simple_animal/hostile/securitron/sentrybot/nsb/riot{
-	name = "ESC-2401";
-	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
-	faction = list("hostile");
 	auto_fire_delay = 1;
-	health = 1000;
+	color = "#FFCCCB";
+	desc = "A sentry bot armed with a modified breacher shotgun and covered in thick armor plating, this one has ESC-2403 stamped onto it's chestplate and looks alot tougher than your average sentry bot.";
 	extra_projectiles = 2;
-	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun;
-	color = "#FFCCCB"
+	faction = list("hostile");
+	health = 1000;
+	name = "ESC-2401";
+	projectiletype = /obj/item/projectile/bullet/incendiary/shotgun
 	},
 /turf/open/floor/f13,
 /area/ruin/powered)
@@ -20519,8 +20967,8 @@
 "xPt" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/floor{
-	pixel_y = 16;
-	pixel_x = -17
+	pixel_x = -17;
+	pixel_y = 16
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/vault/atrium)
@@ -20827,8 +21275,8 @@
 /area/ruin/powered)
 "yiD" = (
 /obj/structure/chair/f13chair1{
-	pixel_y = 15;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 15
 	},
 /obj/structure/sign/poster/prewar/poster73{
 	pixel_x = 32
@@ -32143,7 +32591,7 @@ pcS
 sYy
 sYy
 pcS
-wFy
+vYu
 jpR
 aNQ
 jpR
@@ -49311,21 +49759,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
 aRH
 aRH
 aRH
@@ -49513,21 +49961,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+ioA
+jow
+jow
+jow
+rIi
+fMD
+rOG
+jow
+lLc
+nBR
+bWW
+dPl
+cpV
+lLc
 aRH
 aRH
 aRH
@@ -49715,21 +50163,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+bWo
+jow
+jow
+jow
+vQg
+jow
+jow
+jow
+jow
+lLc
+sUK
+aOU
+sUK
+qfm
+lLc
 aRH
 aRH
 aRH
@@ -49917,21 +50365,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+wMU
+qYK
+jow
+jow
+aad
+obh
+jow
+lLc
+sUK
+fvN
+arE
+gat
+lLc
 aRH
 aRH
 aRH
@@ -50119,21 +50567,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+odq
+fLF
+jow
+jow
+onb
+avs
+jow
+lLc
+sUK
+trT
+pFz
+iIp
+lLc
 aRH
 aRH
 aRH
@@ -50321,21 +50769,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+roh
+jow
+jow
+jow
+fcX
+sUK
+sUK
+sUK
+itU
+lLc
 aRH
 aRH
 aRH
@@ -50523,21 +50971,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+lLc
+jCu
+tnk
+kwt
+gyV
+lLc
 aRH
 aRH
 aRH
@@ -50725,21 +51173,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+uBn
+jow
+ohi
+jow
+siz
+jow
+jow
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
 aRH
 aRH
 aRH
@@ -50927,20 +51375,20 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+jow
+jow
+brb
+jow
+vQg
+lLc
+jow
+jow
+lLc
 aRH
 aRH
 aRH
@@ -51129,20 +51577,20 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+eUW
+jow
+jow
+gNW
+rIi
+jow
+jow
+jow
+rIi
+deP
+jow
+ksg
+lLc
 aRH
 aRH
 aRH
@@ -51331,20 +51779,20 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+lLc
+dyO
+jow
+lLc
 aRH
 aRH
 aRH
@@ -51533,21 +51981,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+oGH
+jow
+tDu
+jow
+nal
+jow
+hDH
+jow
+lLc
+lLc
+lLc
+lLc
+lLc
 aRH
 aRH
 aRH
@@ -51735,21 +52183,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+iwi
+hlO
+wBS
+wmM
+lLc
 aRH
 aRH
 aRH
@@ -51937,21 +52385,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+bBC
+mQm
+sle
+cYg
+lLc
 aRH
 aRH
 aRH
@@ -52139,21 +52587,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+wgI
+jow
+cyE
+fBV
+jow
+vQg
+jow
+pGo
+tvu
+jow
+bBC
+mQm
+pAi
+cwc
+lLc
 aRH
 aRH
 aRH
@@ -52187,7 +52635,7 @@ gWb
 gWb
 gWb
 tfa
-bWo
+xup
 dNS
 dNS
 fCh
@@ -52341,21 +52789,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+kHJ
+foh
+jow
+jow
+jow
+jUj
+cho
+jow
+bBC
+mQm
+mQm
+eRR
+lLc
 aRH
 aRH
 aRH
@@ -52543,21 +52991,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+jow
+bBC
+sfo
+sle
+cYg
+lLc
 aRH
 aRH
 aRH
@@ -52745,21 +53193,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+ioA
+jow
+jow
+jow
+rIi
+jow
+qOj
+wvB
+jow
+iXd
+pVG
+egt
+aQp
+lLc
 aRH
 aRH
 aRH
@@ -52947,21 +53395,21 @@ aRH
 aRH
 aRH
 aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
-aRH
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
+lLc
 aRH
 aRH
 aRH
@@ -55606,7 +56054,7 @@ aRH
 aRH
 gWb
 tfa
-bWo
+xup
 oqn
 oqn
 pCv
@@ -57020,7 +57468,7 @@ aRH
 aRH
 gWb
 tfa
-bWo
+xup
 oqn
 pCv
 uBi
