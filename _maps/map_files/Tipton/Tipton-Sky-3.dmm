@@ -90,8 +90,8 @@
 	layer = 3.1
 	},
 /obj/item/locked_box/weapon/range/tier3_5{
-	pixel_y = 12;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 12
 	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
@@ -200,8 +200,8 @@
 "aQ" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 11;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/f13{
@@ -432,8 +432,8 @@
 	},
 /obj/item/reagent_containers/food/snacks/pizza/meat,
 /obj/item/reagent_containers/food/drinks/bottle/f13nukacola{
-	pixel_y = 18;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 18
 	},
 /turf/open/floor/wood_common/wood_common_dark,
 /area/f13/legioncamp)
@@ -893,8 +893,8 @@
 /area/f13/klamat/powered)
 "ds" = (
 /obj/structure/fence{
-	pixel_x = 14;
-	density = 0
+	density = 0;
+	pixel_x = 14
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
@@ -909,15 +909,15 @@
 /area/f13/legioncamp)
 "dt" = (
 /obj/item/cigbutt{
-	pixel_y = 10;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 10
 	},
 /obj/item/cigbutt{
 	pixel_y = 16
 	},
 /obj/item/cigbutt{
-	pixel_y = 12;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 12
 	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -1121,8 +1121,8 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/rack_parts{
-	pixel_y = 16;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 16
 	},
 /turf/open/floor/wood_common,
 /area/f13/legioncamp)
@@ -1232,8 +1232,8 @@
 /area/f13/klamat/powered)
 "eF" = (
 /obj/structure/closet/crate/bin/trashbin{
-	pixel_y = 20;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 20
 	},
 /obj/machinery/light/small{
 	dir = 4
@@ -1359,8 +1359,8 @@
 "fc" = (
 /obj/item/chair/greyscale,
 /obj/item/cigbutt{
-	pixel_y = 2;
-	pixel_x = -4
+	pixel_x = -4;
+	pixel_y = 2
 	},
 /obj/machinery/light,
 /turf/open/floor/f13{
@@ -1530,8 +1530,8 @@
 	pixel_y = 5
 	},
 /obj/item/phone{
-	pixel_y = 9;
-	pixel_x = 14
+	pixel_x = 14;
+	pixel_y = 9
 	},
 /obj/item/photo{
 	pixel_x = -1
@@ -2033,8 +2033,8 @@
 /area/f13/building/powered)
 "hE" = (
 /obj/structure/railing/corner{
-	dir = 8;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 8
 	},
 /obj/machinery/light/small{
 	dir = 4
@@ -2073,8 +2073,8 @@
 	icon_state = "bookempty"
 	},
 /obj/item/toy/cards/deck{
-	pixel_y = 16;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 16
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/powered)
@@ -2112,8 +2112,8 @@
 /area/f13/legioncamp)
 "hR" = (
 /obj/structure/railing/corner{
-	dir = 8;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 8
 	},
 /turf/open/floor/f13/wood,
 /area/f13/klamat/powered)
@@ -2130,8 +2130,8 @@
 	},
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/mug/coco{
-	pixel_y = 8;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 8
 	},
 /obj/item/reagent_containers/food/drinks/dry_ramen{
 	pixel_y = 3
@@ -2400,8 +2400,8 @@
 	pixel_y = 5
 	},
 /obj/item/clothing/gloves/boxing/yellow{
-	pixel_y = 5;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common/wood_common_dark,
@@ -2540,8 +2540,8 @@
 /area/f13/legioncamp)
 "jd" = (
 /obj/structure/fluff/railing/corner{
-	dir = 4;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 4
 	},
 /turf/open/transparent/openspace,
 /area/f13/ncr/powered)
@@ -2859,8 +2859,8 @@
 /obj/structure/lattice/catwalk,
 /obj/vertibird{
 	dir = 1;
-	pixel_y = -65;
-	pixel_x = -135
+	pixel_x = -135;
+	pixel_y = -65
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain0"
@@ -2943,8 +2943,8 @@
 "kB" = (
 /obj/structure/bed/old,
 /obj/item/toy/plush/mammal/fox/fuzzy{
-	pixel_y = 18;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 18
 	},
 /obj/item/bedsheet/brown,
 /turf/open/floor/carpet/green,
@@ -3002,8 +3002,8 @@
 /area/f13/wasteland/cold)
 "kL" = (
 /obj/structure/railing/corner{
-	dir = 8;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 8
 	},
 /turf/open/floor/wood_fancy,
 /area/f13/klamat/powered)
@@ -3124,8 +3124,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/oldalt,
 /obj/effect/decal/cleanable/blood/old{
-	pixel_y = 4;
-	pixel_x = -11
+	pixel_x = -11;
+	pixel_y = 4
 	},
 /turf/open/floor/wood_common,
 /area/f13/legioncamp)
@@ -3178,8 +3178,8 @@
 	color = "#363636"
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
 	pixel_x = -1;
@@ -3224,8 +3224,8 @@
 "ly" = (
 /obj/structure/table/wood,
 /obj/item/candle{
-	pixel_y = 10;
-	pixel_x = 10
+	pixel_x = 10;
+	pixel_y = 10
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -3366,8 +3366,8 @@
 "lW" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
-	pixel_y = 20;
-	pixel_x = 11
+	pixel_x = 11;
+	pixel_y = 20
 	},
 /turf/open/floor/plating/f13/outside/roof/wood,
 /area/f13/building/powered)
@@ -3539,8 +3539,8 @@
 /area/f13/building/powered)
 "my" = (
 /obj/structure/railing{
-	layer = 4.1;
-	dir = 4
+	dir = 4;
+	layer = 4.1
 	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -3771,16 +3771,16 @@
 "nr" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/cognac{
-	pixel_y = 16;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 16
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 13;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 13
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 15;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 15
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/powered)
@@ -3893,16 +3893,16 @@
 /area/f13/building/powered)
 "nS" = (
 /obj/item/toy/snowball{
-	pixel_y = -10;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = -10
 	},
 /obj/item/toy/snowball{
-	pixel_y = -10;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = -10
 	},
 /obj/item/toy/snowball{
-	pixel_y = -10;
-	pixel_x = 11
+	pixel_x = 11;
+	pixel_y = -10
 	},
 /obj/item/toy/snowball{
 	pixel_x = 6;
@@ -4031,8 +4031,8 @@
 /area/f13/building/powered)
 "oo" = (
 /obj/structure/fluff/railing/corner{
-	dir = 1;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 1
 	},
 /turf/open/transparent/openspace,
 /area/f13/ncr/powered)
@@ -4080,8 +4080,8 @@
 "ow" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2";
-	pixel_y = -1;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = -1
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -4317,8 +4317,8 @@
 "px" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1";
-	pixel_y = 4;
-	pixel_x = -4
+	pixel_x = -4;
+	pixel_y = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -4817,8 +4817,8 @@
 "rb" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress4";
-	pixel_y = -1;
-	pixel_x = -16
+	pixel_x = -16;
+	pixel_y = -1
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -4860,8 +4860,8 @@
 /obj/structure/chair/stool/retro/tan,
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
-	pixel_y = 20;
-	pixel_x = 11
+	pixel_x = 11;
+	pixel_y = 20
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/red,
@@ -5227,8 +5227,8 @@
 	pixel_y = 5
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
 	pixel_y = 16
@@ -5289,12 +5289,12 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_y = 7;
-	pixel_x = -4
+	pixel_x = -4;
+	pixel_y = 7
 	},
 /obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_y = 7;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 7
 	},
 /turf/open/floor/wood_common/wood_common_dark,
 /area/f13/legioncamp)
@@ -5391,8 +5391,8 @@
 	},
 /obj/structure/flora/grass/jungle/b,
 /obj/structure/flora/ausbushes/reedbush{
-	pixel_y = 19;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 19
 	},
 /turf/open/water,
 /area/f13/building)
@@ -5522,8 +5522,8 @@
 /area/f13/building/powered)
 "tB" = (
 /obj/item/flashlight/lantern{
-	pixel_y = 18;
-	pixel_x = -11
+	pixel_x = -11;
+	pixel_y = 18
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building/powered)
@@ -5705,8 +5705,8 @@
 /area/f13/legioncamp)
 "uk" = (
 /obj/item/flashlight/lantern{
-	pixel_y = 17;
-	pixel_x = 10
+	pixel_x = 10;
+	pixel_y = 17
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/f13/outside/roof,
@@ -5810,8 +5810,8 @@
 	pixel_y = 6
 	},
 /obj/item/pen{
-	pixel_y = 7;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 7
 	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -6135,12 +6135,12 @@
 "vG" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/bucket/wood{
-	pixel_y = 13;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 13
 	},
 /obj/item/reagent_containers/glass/bucket/wood{
-	pixel_y = 6;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 6
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -6540,8 +6540,8 @@
 /area/f13/wasteland/cold/power)
 "xg" = (
 /obj/item/toy/plush/beeplushie{
-	pixel_y = 20;
-	pixel_x = 14
+	pixel_x = 14;
+	pixel_y = 20
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
@@ -6779,9 +6779,9 @@
 /obj/machinery/button/door{
 	id = "bosdorm3";
 	normaldoorcontrol = 1;
+	pixel_x = 7;
 	pixel_y = -23;
-	specialfunctions = 4;
-	pixel_x = 7
+	specialfunctions = 4
 	},
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13{
@@ -7153,8 +7153,8 @@
 	pixel_y = 6
 	},
 /obj/item/reagent_containers/food/snacks/meat/slab/human{
-	pixel_y = 9;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 9
 	},
 /turf/open/floor/plating/f13/outside/roof/wood/old,
 /area/f13/building/powered)
@@ -7167,8 +7167,8 @@
 /area/f13/ncr/powered)
 "zC" = (
 /obj/structure/fence{
-	dir = 8;
-	density = 0
+	density = 0;
+	dir = 8
 	},
 /turf/open/floor/wood_common,
 /area/f13/legioncamp)
@@ -7412,8 +7412,8 @@
 	pixel_y = 11
 	},
 /obj/item/camera_film{
-	pixel_y = 11;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 11
 	},
 /obj/item/camera,
 /turf/open/floor/f13/wood,
@@ -7626,8 +7626,8 @@
 /area/f13/wasteland/cold)
 "Bh" = (
 /obj/item/trash/f13/fancylads{
-	pixel_y = 19;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 19
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/f13/outside/roof/wood/old,
@@ -7650,16 +7650,16 @@
 "Bk" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 16;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 16
 	},
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 9;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 2;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 2
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -8308,8 +8308,8 @@
 "DI" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_y = 9;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/glass/beaker/waterbottle,
 /turf/open/floor/f13/wood,
@@ -8344,8 +8344,8 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/crafting,
 /obj/item/candle{
-	pixel_y = 10;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 10
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -8616,8 +8616,8 @@
 "EW" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/soymilk{
-	pixel_y = 4;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -8654,8 +8654,8 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/lock_construct{
-	pixel_y = 4;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 4
 	},
 /obj/item/key{
 	pixel_x = 4
@@ -8912,8 +8912,8 @@
 /area/f13/wasteland/cold)
 "Gb" = (
 /obj/structure/decoration/clock/old/active{
-	pixel_y = 31;
-	pixel_x = 14
+	pixel_x = 14;
+	pixel_y = 31
 	},
 /obj/machinery/light/small{
 	dir = 1
@@ -9131,8 +9131,8 @@
 /area/f13/brotherhood/powered)
 "GQ" = (
 /obj/structure/railing/corner{
-	dir = 4;
-	color = "#A47449"
+	color = "#A47449";
+	dir = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -9307,8 +9307,8 @@
 /area/f13/brotherhood/powered)
 "Hu" = (
 /obj/item/storage/toolbox/ammo{
-	pixel_y = 16;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 16
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
@@ -9507,8 +9507,8 @@
 	pixel_y = 7
 	},
 /obj/item/pen{
-	pixel_y = 7;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 7
 	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -9547,8 +9547,8 @@
 "Ip" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2";
-	pixel_y = 4;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -9557,8 +9557,8 @@
 "Iq" = (
 /obj/structure/table/wood,
 /obj/item/cigbutt{
-	pixel_y = 5;
-	pixel_x = -9
+	pixel_x = -9;
+	pixel_y = 5
 	},
 /obj/item/cigbutt{
 	pixel_x = -6
@@ -9599,8 +9599,8 @@
 	pixel_y = 5
 	},
 /obj/item/clothing/gloves/boxing/yellow{
-	pixel_y = 5;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common,
@@ -9660,14 +9660,14 @@
 /area/f13/building)
 "IG" = (
 /obj/structure/closet/anchored,
-/obj/item/clothing/suit/toggle/labcoat/scribecoat,
-/obj/item/clothing/suit/toggle/labcoat/scribecoat,
-/obj/item/clothing/suit/toggle/labcoat/scribecoat,
-/obj/item/clothing/suit/toggle/labcoat/scribecoat,
 /obj/item/clothing/suit/toggle/labcoat/fieldscribe,
 /obj/item/clothing/suit/toggle/labcoat/fieldscribe,
 /obj/item/clothing/suit/toggle/labcoat/fieldscribe,
 /obj/item/clothing/suit/toggle/labcoat/fieldscribe,
+/obj/item/clothing/suit/armor/light/duster/bos/scribe/field_coat,
+/obj/item/clothing/suit/armor/light/duster/bos/scribe/field_coat,
+/obj/item/clothing/suit/armor/light/duster/bos/scribe/field_coat,
+/obj/item/clothing/suit/armor/light/duster/bos/scribe/field_coat,
 /turf/open/floor/f13{
 	dir = 10;
 	icon_state = "redmark"
@@ -9767,8 +9767,8 @@
 /area/f13/building/powered)
 "IW" = (
 /obj/structure/railing{
-	layer = 4.1;
-	dir = 4
+	dir = 4;
+	layer = 4.1
 	},
 /obj/structure/table/wood/settler,
 /obj/effect/decal/cleanable/dirt{
@@ -10109,12 +10109,12 @@
 /obj/item/reagent_containers/rag/towel,
 /obj/item/reagent_containers/rag/towel,
 /obj/item/clothing/gloves/boxing/blue{
-	pixel_y = 5;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 5
 	},
 /obj/item/clothing/gloves/boxing/green{
-	pixel_y = 5;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common,
@@ -10238,8 +10238,8 @@
 /area/f13/ncr/powered)
 "KM" = (
 /obj/structure/flora/timber{
-	pixel_y = 17;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 17
 	},
 /turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/cold)
@@ -10280,12 +10280,12 @@
 "KU" = (
 /obj/structure/table/wood,
 /obj/item/storage/toolbox/mechanical{
-	pixel_y = 14;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 14
 	},
 /obj/item/storage/toolbox/mechanical{
-	pixel_y = 5;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13/wood,
@@ -10350,8 +10350,8 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/three_course_meal,
 /obj/item/toy/cards/deck/unum{
-	pixel_y = -10;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = -10
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -10379,8 +10379,8 @@
 	id = "bosdorm4";
 	normaldoorcontrol = 1;
 	pixel_x = 8;
-	specialfunctions = 4;
-	pixel_y = -25
+	pixel_y = -25;
+	specialfunctions = 4
 	},
 /obj/structure/closet/cabinet,
 /obj/effect/decal/cleanable/dirt{
@@ -10644,8 +10644,8 @@
 /area/f13/building)
 "Mj" = (
 /obj/item/flashlight/lantern{
-	pixel_y = 19;
-	pixel_x = 7
+	pixel_x = 7;
+	pixel_y = 19
 	},
 /turf/open/indestructible/ground/outside/snow{
 	icon_state = "snow3"
@@ -10786,8 +10786,8 @@
 "MO" = (
 /obj/structure/bookcase,
 /obj/item/toy/figure/chemist{
-	pixel_y = 16;
-	pixel_x = 42
+	pixel_x = 42;
+	pixel_y = 16
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -10843,8 +10843,8 @@
 	id = "bosdorm5";
 	normaldoorcontrol = 1;
 	pixel_x = 8;
-	specialfunctions = 4;
-	pixel_y = -24
+	pixel_y = -24;
+	specialfunctions = 4
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -11405,8 +11405,8 @@
 "Pf" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
-	pixel_y = 7;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 7
 	},
 /obj/item/stamp{
 	pixel_x = 11;
@@ -11896,8 +11896,8 @@
 "QU" = (
 /obj/structure/table/wood,
 /obj/item/cultivator{
-	pixel_y = 8;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 8
 	},
 /obj/item/cultivator,
 /obj/item/clothing/gloves/botanic_leather,
@@ -12012,8 +12012,8 @@
 /area/f13/legioncamp)
 "Rl" = (
 /obj/structure/railing{
-	layer = 4.1;
-	dir = 4
+	dir = 4;
+	layer = 4.1
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -12047,8 +12047,8 @@
 	pixel_y = 5
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/bottle/applejack{
 	pixel_y = 22
@@ -12060,8 +12060,8 @@
 "Rs" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
-	pixel_y = 19;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 19
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -12363,12 +12363,12 @@
 /area/f13/legioncamp)
 "SB" = (
 /obj/structure/fence{
-	pixel_x = 14;
-	density = 0
+	density = 0;
+	pixel_x = 14
 	},
 /obj/structure/fence{
-	dir = 8;
-	density = 0
+	density = 0;
+	dir = 8
 	},
 /turf/open/floor/wood_common,
 /area/f13/legioncamp)
@@ -12458,8 +12458,8 @@
 	icon_state = "bookempty"
 	},
 /obj/item/lockpick_set/bobby_pin{
-	pixel_y = 13;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = 13
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr/powered)
@@ -12588,8 +12588,8 @@
 /area/f13/wasteland/cold)
 "TB" = (
 /obj/structure/railing{
-	layer = 4.1;
-	dir = 4
+	dir = 4;
+	layer = 4.1
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -12634,8 +12634,8 @@
 "TI" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/instacocoa{
-	pixel_y = 11;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 11
 	},
 /obj/item/reagent_containers/food/drinks/coffee{
 	pixel_x = -8;
@@ -12670,8 +12670,8 @@
 /area/f13/klamat/powered)
 "TO" = (
 /obj/item/reagent_containers/glass/bucket/wood{
-	pixel_y = 14;
-	pixel_x = -9
+	pixel_x = -9;
+	pixel_y = 14
 	},
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/vomit/old{
@@ -12998,12 +12998,12 @@
 	},
 /obj/structure/bookcase,
 /obj/item/radio/tribal{
-	pixel_y = 19;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 19
 	},
 /obj/item/toy/figure/detective{
-	pixel_y = 16;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 16
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
@@ -13082,8 +13082,8 @@
 /area/f13/legioncamp)
 "Vd" = (
 /obj/structure/railing{
-	layer = 4.1;
-	dir = 4
+	dir = 4;
+	layer = 4.1
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -13348,16 +13348,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood,
 /obj/item/lock_construct{
-	pixel_y = 11;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 11
 	},
 /obj/item/lock_construct{
-	pixel_y = 7;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 7
 	},
 /obj/item/lock_construct{
-	pixel_y = 2;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 2
 	},
 /obj/item/key{
 	pixel_x = 9;
@@ -13521,8 +13521,8 @@
 /obj/effect/turf_decal/weather/snow/corner,
 /obj/item/storage/trash_stack{
 	icon_state = "Junk_3";
-	pixel_y = 11;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 11
 	},
 /turf/open/floor/plating/f13/outside/roof/wood/old,
 /area/f13/building/powered)
@@ -13788,8 +13788,8 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood/junk,
 /obj/item/reagent_containers/food/drinks/bottle/f13nukacola{
-	pixel_y = 18;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 18
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8;
@@ -13863,8 +13863,8 @@
 	color = "000000"
 	},
 /obj/item/storage/crayons{
-	pixel_y = 6;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 6
 	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -14064,8 +14064,8 @@
 "Yy" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/large{
-	pixel_y = 10;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 10
 	},
 /obj/item/reagent_containers/glass/beaker/large{
 	pixel_y = 3
@@ -14092,8 +14092,8 @@
 /area/f13/tunnel)
 "YF" = (
 /obj/structure/fence{
-	pixel_x = 14;
-	density = 0
+	density = 0;
+	pixel_x = 14
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legioncamp)
@@ -14357,9 +14357,9 @@
 /area/f13/legioncamp)
 "ZJ" = (
 /obj/item/toy/plush/lizardplushie{
+	name = "Watches-The-Brahmin";
 	pixel_x = -14;
-	pixel_y = -27;
-	name = "Watches-The-Brahmin"
+	pixel_y = -27
 	},
 /turf/open/indestructible/ground/outside/snow,
 /area/f13/wasteland/cold)
@@ -14453,8 +14453,8 @@
 "ZV" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2";
-	pixel_y = 13;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 13
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
