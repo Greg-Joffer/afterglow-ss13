@@ -695,6 +695,7 @@
 									"You feel as though you're about to change at any moment!" = MUT_MSG_ABOUT2TURN)
 	var/mutationtext
 	var/cycles_to_turn = 20 //the current_cycle threshold / iterations needed before one can transform
+	can_synth = FALSE
 	ghoulfriendly = TRUE
 
 /datum/reagent/mutationtoxin/on_mob_life(mob/living/carbon/human/H)
@@ -891,6 +892,7 @@
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	taste_description = "slime"
 	metabolization_rate = 0.2
+	can_synth = FALSE
 	value = REAGENT_VALUE_RARE
 
 /datum/reagent/slime_toxin/on_mob_life(mob/living/carbon/human/H)
@@ -930,6 +932,7 @@
 	metabolization_rate = INFINITY
 	taste_description = "slime"
 	value = REAGENT_VALUE_RARE
+	can_synth = FALSE
 	ghoulfriendly = TRUE
 
 /datum/reagent/mulligan/on_mob_life(mob/living/carbon/human/H)
@@ -947,6 +950,7 @@
 	color = "#13BC5E" // rgb: 19, 188, 94
 	taste_description = "slime"
 	value = REAGENT_VALUE_VERY_RARE
+	can_synth = FALSE
 	ghoulfriendly = TRUE
 
 /datum/reagent/aslimetoxin/reaction_mob(mob/living/L, method=TOUCH, reac_volume)
@@ -960,6 +964,7 @@
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	taste_description = "decay"
 	value = REAGENT_VALUE_GLORIOUS
+	can_synth = FALSE
 	ghoulfriendly = TRUE
 
 /datum/reagent/gluttonytoxin/reaction_mob(mob/living/L, method=TOUCH, reac_volume)
@@ -2414,7 +2419,7 @@
 	description = "blue sparkles that get everywhere"
 	color = "#4040FF" //A blueish color
 	glitter_type = /obj/effect/decal/cleanable/glitter/blue
-/*
+
 /datum/reagent/pax
 	name = "pax"
 	description = "A colorless liquid that suppresses violence on the subjects."
@@ -2426,14 +2431,16 @@
 	pH = 15
 	ghoulfriendly = TRUE
 
-/datum/reagent/pax/on_mob_metabolize(mob/living/L)
-	..()
-	ADD_TRAIT(L, TRAIT_PACIFISM, type)
-
 /datum/reagent/pax/on_mob_end_metabolize(mob/living/L)
 	REMOVE_TRAIT(L, TRAIT_PACIFISM, type)
 	..()
-*/
+
+/datum/reagent/pax/reaction_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1, touch_protection = 0)
+	if(!HAS_TRAIT(M, TRAIT_PACIFISM) && method == INJECT)
+		ADD_TRAIT(M, TRAIT_PACIFISM, type)
+		to_chat(M, span_notice("Maybe violence isn't the answer."))
+	return ..()
+
 /datum/reagent/bz_metabolites
 	name = "BZ metabolites"
 	description = "A harmless metabolite of BZ gas"
@@ -2457,14 +2464,14 @@
 		if(changeling)
 			changeling.chem_charges = max(changeling.chem_charges-2, 0)
 	return ..()
-/*
+
 /datum/reagent/pax/peaceborg
 	name = "synth-pax"
 	description = "A colorless liquid that suppresses violence on the subjects. Cheaper to synthetize, but wears out faster than normal Pax."
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	value = REAGENT_VALUE_COMMON
 	ghoulfriendly = TRUE
-*/
+
 /datum/reagent/peaceborg_confuse
 	name = "Dizzying Solution"
 	description = "Makes the target off balance and dizzy"

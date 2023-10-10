@@ -554,6 +554,24 @@ Edit: TK~  This is the dumbest fucking shit I've ever seen in my life.  This isn
 	var/mob/living/carbon/human/H = quirk_holder
 	H?.cure_trauma_type(mute, TRAUMA_RESILIENCE_ABSOLUTE)
 
+/datum/quirk/deaf
+	name = "Deaf"
+	desc = "Due to some accident, medical condition or simply by explosion. You are simply completely unable to hear."
+	value = -2 // You are deaf. Not a license to grief.
+	gain_text = span_danger("You find yourself unable to ear at all!")
+	lose_text = span_notice("You somehow can hear again, even the slight sound of the wind.")
+	medical_record_text = "Functionally deaf, patient is unable to hear."
+
+/datum/quirk/deaf/post_add()
+	. = ..()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.gain_trauma(/datum/brain_trauma/severe/deaf, TRAUMA_RESILIENCE_ABSOLUTE)
+
+/datum/quirk/deaf/remove()
+	. = ..()
+	var/mob/living/carbon/human/H = quirk_holder
+	H?.cure_trauma_type(/datum/brain_trauma/severe/deaf, TRAUMA_RESILIENCE_ABSOLUTE)
+
 /datum/quirk/unstable
 	name = "Unstable"
 	desc = "Due to past troubles, you are unable to recover your sanity if you lose it. Be very careful managing your mood!"
@@ -660,30 +678,21 @@ Edit: TK~  This is the dumbest fucking shit I've ever seen in my life.  This isn
 
 /datum/quirk/masked_mook/on_process()
 	var/mob/living/carbon/human/H = quirk_holder
-	var/obj/item/clothing/mask/maskmask = H.get_item_by_slot(ITEM_SLOT_MASK)
-	if(istype(maskmask) && !istype(maskmask, /obj/item/clothing/mask/cigarette))
-		SEND_SIGNAL(quirk_holder, COMSIG_CLEAR_MOOD_EVENT, mood_category, /datum/mood_event/masked_mook_incomplete)
-		SEND_SIGNAL(quirk_holder, COMSIG_ADD_MOOD_EVENT, mood_category, /datum/mood_event/masked_mook)
+	var/obj/item/clothing/mask/maskmask = H.get_item_by_slot(SLOT_WEAR_MASK)
+	if(istype(maskmask) && !(istype(maskmask, /obj/item/clothing/mask/cigarette) || istype(maskmask, /obj/item/clothing/mask/vape)))
+		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, mood_category)
+		SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, mood_category, /datum/mood_event/masked_mook)
 	else
-		SEND_SIGNAL(quirk_holder, COMSIG_CLEAR_MOOD_EVENT, mood_category, /datum/mood_event/masked_mook)
-		SEND_SIGNAL(quirk_holder, COMSIG_ADD_MOOD_EVENT, mood_category, /datum/mood_event/masked_mook_incomplete)
+		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, mood_category)
+		SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, mood_category, /datum/mood_event/masked_mook_incomplete)
 
 /datum/mood_event/masked_mook
 	description = span_nicegreen("I'm safe in my protective mask.")
-	mood_change = 3
-	timeout = 0
+	mood_change = 0
 
 /datum/mood_event/masked_mook_incomplete
 	description = span_warning("I'm forced to breathe the horrors of the wastes!")
 	mood_change = -3
-	timeout = 0
-
-/datum/quirk/masked_mook/on_spawn()
-	. = ..()
-	var/mob/living/carbon/human/H = quirk_holder
-	var/obj/item/clothing/mask/gas/gasmask = new(get_turf(quirk_holder))
-	H.equip_to_slot(gasmask, ITEM_SLOT_MASK)
-	H.regenerate_icons()
 
 /datum/quirk/paper_skin
 	name = "Paper Skin"

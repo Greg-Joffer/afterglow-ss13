@@ -318,11 +318,11 @@
 
 //Big Chews Beam
 /obj/item/projectile/beam/laser/pistol/ultraweak/chew/strong
-	damage = 18 //it fucks
+	damage = 20 //it fucks
 	icon_state = "gaussstrong"
 	movement_type = FLYING | UNSTOPPABLE //stopping for nothing except its range
-	pixels_per_second = TILES_TO_PIXELS(15) //slow
-	range = 16
+	pixels_per_second = TILES_TO_PIXELS(12) //slow
+	range = 18
 
 //Alrem's plasmacaster
 /obj/item/projectile/f13plasma/plasmacaster/arlem
@@ -343,7 +343,7 @@
 /obj/item/projectile/beam/laser/lasgun/hitscan //hitscan aer9 test
 	name = "laser beam"
 	damage = 30
-	armour_penetration = 0.25 // 25% so you can get through tougher stuff
+	armour_penetration = 0.33 // 33% so you can get through tougher stuff
 	hitscan = TRUE
 	tracer_type = /obj/effect/projectile/tracer/laser
 	muzzle_type = /obj/effect/projectile/muzzle/laser
@@ -357,7 +357,7 @@
 /obj/item/projectile/beam/laser/gatling/hitscan //Gatling Laser
 	name = "laser beam"
 	damage = 15
-	armour_penetration = 0.1
+	armour_penetration = 0.14
 	hitscan = TRUE
 	tracer_type = /obj/effect/projectile/tracer/laser
 	muzzle_type = /obj/effect/projectile/muzzle/laser
@@ -653,7 +653,7 @@
 	name = "rapidfire beam"
 	icon_state = "emitter"
 	damage = 15
-	armour_penetration = 0.1
+	armour_penetration = 0.12
 	hitscan = TRUE
 	muzzle_type = /obj/effect/projectile/muzzle/laser/emitter
 	tracer_type = /obj/effect/projectile/tracer/laser/emitter
@@ -703,9 +703,9 @@
 	light_color = LIGHT_COLOR_BLUE
 
 /obj/item/projectile/beam/laser/aer14/hitscan
-	damage = 32
+	damage = 34
 	wound_bonus = 20
-	armour_penetration = 0.2
+	armour_penetration = 0.5
 	tracer_type = /obj/effect/projectile/tracer/pulse
 	muzzle_type = /obj/effect/projectile/muzzle/pulse
 	impact_type = /obj/effect/projectile/impact/pulse
@@ -732,7 +732,7 @@
 	name = "laser beam"
 	damage = 32
 	hitscan = TRUE
-	armour_penetration = 0.4
+	armour_penetration = 0.37
 	tracer_type = /obj/effect/projectile/tracer/xray
 	muzzle_type = /obj/effect/projectile/muzzle/xray
 	impact_type = /obj/effect/projectile/impact/xray
@@ -756,7 +756,7 @@
 	damage = 50
 	wound_bonus = 10
 	bare_wound_bonus = 20
-	armour_penetration = 0.4
+	armour_penetration = 0.25
 	tracer_type = /obj/effect/projectile/tracer/heavy_laser
 	muzzle_type = /obj/effect/projectile/muzzle/heavy_laser
 	impact_type = /obj/effect/projectile/impact/heavy_laser
@@ -767,7 +767,7 @@
 	damage = 40
 	wound_bonus = 10
 	bare_wound_bonus = 20
-	armour_penetration = 0.2
+	armour_penetration = 0.15
 	tracer_type = /obj/effect/projectile/tracer/heavy_laser
 	muzzle_type = /obj/effect/projectile/muzzle/heavy_laser
 	impact_type = /obj/effect/projectile/impact/heavy_laser
